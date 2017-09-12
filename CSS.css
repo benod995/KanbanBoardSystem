@@ -1,0 +1,29 @@
+.root {
+    cell-color: white ;
+    cell-border-color: black ;
+}
+#ggg {
+    /* 1 pixel border around the top and right of the grid: */
+    -fx-background-color: cell-border-color, cell-color ;
+    -fx-background-insets: 0, 1 1 0 0 ;
+    -fx-padding: 1 ;
+    -fx-padding-left: 5px;
+}
+#ggg {
+    /* 1 pixel border around the left and bottom of each cell: */
+    -fx-background-color: cell-border-color, cell-color ;
+    -fx-background-insets: 0, 1 1 1 1 ;
+    -fx-padding-left: 5px;
+
+}
+#TickBox{
+	-fx-border-color:black;
+	-fx-border-width:1px;
+	-fx-border-bottom-width:0px;
+	-fx-padding:0px;
+}
+#titlePane{
+	-fx-border-color:black;
+	-fx-border-width:1px;
+	-fx-padding:0px;
+}
